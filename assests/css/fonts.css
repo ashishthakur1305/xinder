@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'Roboto Condensed-Bold';
+    src: url('/assests/fonts/RobotoCondensed-Bold.woff2') format('woff2'),
+        url('/assests/fonts/RobotoCondensed-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed-ExtraBold';
+    src: url('/assests/fonts/RobotoCondensed-ExtraBold.woff2') format('woff2'),
+        url('/assests/fonts/RobotoCondensed-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed-Medium';
+    src: url('/assests/fonts/RobotoCondensed-Medium.woff2') format('woff2'),
+        url('/assests/fonts/RobotoCondensed-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed-Regular';
+    src: url('/assests/fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+        url('/assests/fonts/RobotoCondensed-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto Condensed-SemiBold';
+    src: url('/assests/fonts/RobotoCondensed-SemiBold.woff2') format('woff2'),
+        url('/assests/fonts/RobotoCondensed-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

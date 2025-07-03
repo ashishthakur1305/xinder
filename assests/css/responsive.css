@@ -1,0 +1,240 @@
+/* navbar */
+ 
+@media (max-width: 575px) {
+    .nav-list {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #881537;
+    display: none;
+    padding: 20px;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+ 
+@media (min-width: 576px) and (max-width: 767px) {
+    .nav-list {
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    right: 0;
+    background-color: #881537;
+    display: none;
+    padding: 20px;
+  }
+
+  .nav-list.active {
+    display: flex;
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .nav-section {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+ 
+@media (min-width: 1200px) and (max-width: 1439px) {
+    
+}
+ 
+@media (min-width: 1440px) and (max-width: 1919px) {
+   
+}
+ 
+@media (min-width: 1920px) {
+    
+}
+ 
+
+/* hero section */
+
+
+ 
+@media (max-width: 575px) {
+     h1.hero-head {
+    font-size: 40px;
+}
+.hero-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-self: baseline;
+}
+}
+ 
+@media (min-width: 576px) and (max-width: 767px) {
+     h1.hero-head {
+    font-size: 40px;
+}
+.hero-flex {
+    flex-direction: column;
+    align-items: center;
+    justify-self: baseline;
+}
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+   h1.hero-head {
+    font-size: 40px;
+}
+
+input.search-input {
+    flex: none;
+}
+
+.hero-image {
+    margin: 0;
+}
+img.hero-img {
+    width: 100%;
+}
+
+
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+ 
+@media (min-width: 1200px) and (max-width: 1439px) {
+    
+}
+ 
+@media (min-width: 1440px) and (max-width: 1919px) {
+   
+}
+ 
+@media (min-width: 1920px) {
+    
+}
+
+/* marque-section */
+
+
+ 
+@media (max-width: 575px) {
+   
+}
+ 
+@media (min-width: 576px) and (max-width: 767px) {
+   
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+ 
+@media (min-width: 1200px) and (max-width: 1439px) {
+    
+}
+ 
+@media (min-width: 1440px) and (max-width: 1919px) {
+   
+}
+ 
+@media (min-width: 1920px) {
+    
+}
+
+
+
+
+ /* masterpiece section */
+
+
+
+ 
+@media (max-width: 575px) {
+   
+}
+ 
+@media (min-width: 576px) and (max-width: 767px) {
+   
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+ 
+@media (min-width: 1200px) and (max-width: 1439px) {
+    
+}
+ 
+@media (min-width: 1440px) and (max-width: 1919px) {
+   
+}
+ 
+@media (min-width: 1920px) {
+    
+}
+
+
+
+/* testimonial section */
+
+
+ 
+@media (max-width: 575px) {
+   
+}
+ 
+@media (min-width: 576px) and (max-width: 767px) {
+   
+}
+ 
+@media (min-width: 768px) and (max-width: 991px) {
+   
+}
+ 
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+ 
+@media (min-width: 1200px) and (max-width: 1439px) {
+    
+}
+ 
+@media (min-width: 1440px) and (max-width: 1919px) {
+   
+}
+ 
+@media (min-width: 1920px) {
+    
+}
+ 
