@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="assests/css/style.css">
   <link rel="stylesheet" href="assests/css/responsive.css">
   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
 </head>
 
@@ -25,7 +26,7 @@
           <li class="nav-links"><a href="#" class="nav-link">Solutions</a></li>
           <li class="nav-links"><a href="#" class="nav-link">Articles</a></li>
           <li class="nav-links"><a href="#" class="nav-link">Sign In</a></li>
-          <li class="nav-links"><a href="#" class="join-btn">Join Now</a></li>
+          <li class="nav-links"><a href="#" class="btn join-btn">Join Now</a></li>
         </ul>
 
         <button class="menu-toggle" id="menu-toggle">
@@ -87,39 +88,56 @@
         </div>
 
         <div class="cards">
-          <div class="card" style="background-image: url('assests/images/Content\ Box1.png');">
-            <!-- <div class="overlay">
-          <small class="card-small">Pottery</small>
-          <h3>Vases Family</h3>
-        </div> -->
-          </div>
 
-          <div class="card" style="background-image: url('assests/images/Content\ Box2.png');">
-            <!-- <div class="overlay">
-          <small class="card-small">Oil Painting</small>
-          <h3>Camel Portrait</h3>
-        </div> -->
-          </div>
+          
 
-          <div class="card" style="background-image: url('assests/images/Content\ Box3.png');">
-            <!-- <div class="overlay">
-          <small class="card-small">Abstract Painting</small>
-          <h3>Euforia</h3>
-        </div> -->
-          </div>
+          <div class="swiper swiper-card">
+            <div class="swiper-wrapper">
 
-          <div class="card" style="background-image: url('assests/images/Content\ Box3.png');">
-            <!-- <div class="overlay">
-          <small class="card-small">Object Design</small>
-          <h3>Classic Watch</h3>
-        </div> -->
-          </div>
+              <div class="swiper-slide slide-card">
+                <div class="card">
+                  <img src="assests/images/Content Box1.png" alt="Card Image" class="card-image">
 
-          <div class="card" style="background-image: url('assests/images/Content\ Box5.png');">
-            <!-- <div class="overlay">
-          <small class="card-small">Sculpture</small>
-          <h3>White Angel</h3>
-        </div> -->
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="assests/images/Content Box2.png" alt="Card Image" class="card-image">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="assests/images/Content Box3.png" alt="Card Image" class="card-image">
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="assests/images/Content Box4.png" alt="Card Image" class="card-image">
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="assests/images/Content Box5.png" alt="Card Image" class="card-image">
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="assests/images/Content Box1.png" alt="Card Image" class="card-image">
+
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="card">
+                  <img src="assests/images/Content Box1.png" alt="Card Image" class="card-image">
+
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -129,7 +147,7 @@
   <section class="masterpiece-section">
     <div class="container">
       <div class="section-header">
-        <h2>Latest masterpieces</h2>
+        <h2 class="categories-header">Latest masterpieces</h2>
         <a href="#" class="view-all">Discover More Masterpieces <img src="assests/images/arrow-right.png" alt=""></a>
       </div>
 
@@ -194,7 +212,7 @@
             </div>
           </div>
 
-            <!-- Slide 5 -->
+          <!-- Slide 5 -->
           <div class="swiper-slide masterpiece-card">
             <img src="assests/images/Picture.png" alt="Colorful Face">
             <div class="info">
@@ -210,7 +228,7 @@
 
 
 
-            <!-- Slide 6 -->
+          <!-- Slide 6 -->
           <div class="swiper-slide masterpiece-card">
             <img src="assests/images/Picture.png" alt="Colorful Face">
             <div class="info">
@@ -225,7 +243,7 @@
           </div>
 
 
-            <!-- Slide 7 -->
+          <!-- Slide 7 -->
           <div class="swiper-slide masterpiece-card">
             <img src="assests/images/Picture.png" alt="Colorful Face">
             <div class="info">
@@ -240,7 +258,7 @@
           </div>
 
 
-          <!-- Add more slides as needed -->
+
 
         </div>
       </div>
@@ -322,57 +340,330 @@
     <div class="container">
 
       <div class="testimonal-parent">
-      <div class="swiper testimonial-swiper">
-        <div class="swiper-wrapper">
+        <div class="swiper testimonial-swiper">
+          <div class="swiper-wrapper">
 
-          <!-- Slide 1 -->
-          <div class="swiper-slide testimonial-slide">
-            <div class="testimonal_card">
-              <div class="testimonial-slide__video-thumbnail">
-                <img src="assests/images/Video.png" alt="Marie Poirot" class="slide-img">
+            <!-- Slide 1 -->
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonal_card">
+                <div class="testimonial-slide__video-thumbnail">
+                  <img src="assests/images/Video.png" alt="Marie Poirot" class="slide-img">
 
-              </div>
-              <div class="testimonial-slide__content">
-                <p class="testimonial-slide__author">Marie Poirot, Co-Founder <a href="#"
-                    class="testimonial-slide__org-link">Art-Gal</a></p>
-                <p class="testimonial-slide__quote">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis
-                  est velit in. Nibh in purus sit convallis.”</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- Slide 2 -->
-          <div class="swiper-slide testimonial-slide">
-            <div class="testimonal_card">
-              <div class="testimonial-slide__video">
-                <img src="assests/images/Video.png" alt="Marie Poirot" class="slide-img">
-
-              </div>
-              <div class="testimonial-slide__content">
-                <p class="testimonial-slide__author">Marie Poirot, Co-Founder <a href="#"
-                    class="testimonial-slide__org-link">Art-Gal</a></p>
-                <p class="testimonial-slide__quote">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu mattis
-                  est velit in. Nibh in purus sit convallis.”</p>
+                </div>
+                <div class="testimonial-slide__content">
+                  <p class="testimonial-slide__author">Marie Poirot, Co-Founder <a href="#"
+                      class="testimonial-slide__org-link">Art-Gal</a></p>
+                  <p class="testimonial-slide__quote">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu
+                    mattis
+                    est velit in. Nibh in purus sit convallis.”</p>
+                </div>
               </div>
             </div>
+
+            <!-- Slide 2 -->
+            <div class="swiper-slide testimonial-slide">
+              <div class="testimonal_card">
+                <div class="testimonial-slide__video">
+                  <img src="assests/images/Video.png" alt="Marie Poirot" class="slide-img">
+
+                </div>
+                <div class="testimonial-slide__content">
+                  <p class="testimonial-slide__author">Marie Poirot, Co-Founder <a href="#"
+                      class="testimonial-slide__org-link">Art-Gal</a></p>
+                  <p class="testimonial-slide__quote">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam arcu
+                    mattis
+                    est velit in. Nibh in purus sit convallis.”</p>
+                </div>
+              </div>
+            </div>
+
+
           </div>
-
-
-        </div>
-        <div class="button-parents">
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <div class="button-parents">
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+          </div>
         </div>
       </div>
-</div>
     </div>
   </section>
 
 
+  <section class="featured-slider">
+    <div class="container">
+
+      <div class="featured-parent">
+      <div class="featured-slider__content">
+        <h2 class="featured-slider__heading">Be incredible</h2>
+        <p class="featured-slider__description">Nec ultricies eget placerat ultricies eleifend dignissim aliquet sapien. Senectus vestibulum, eget erat at et congue cursus pretium.</p>
+        <button class="btn featured-slider__button">Explore Xinder</button>
+      </div>
+
+      <div class="swiper beincredible-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide beincredible-card">
+            <div class="beincredible-img-wrapper">
+              <img src="assests/images/Picture-swiper.png" width="384" height="220" alt=""
+                class="beincredible-card-image">
+              <div class="beincredible-text">
+                <img src="assests/images/User Thumb-swiper.png" height="24" width="24" alt="">
+                <p class="beincredible-card-title">
+                  Colorful Face
+                </p>
+              </div>
+            </div>
+          </div>
+           <div class="swiper-slide beincredible-card">
+            <div class="beincredible-img-wrapper">
+              <img src="assests/images/-s1.png" width="384" height="220" alt=""
+                class="beincredible-card-image">
+              <div class="beincredible-text">
+                <img src="assests/images/ts1.png" height="24" width="24" alt="">
+                <p class="beincredible-card-title">
+                  Splash
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide beincredible-card">
+            <div class="beincredible-img-wrapper">
+              <img src="assests/images/s2.png" width="384" height="220" alt=""
+                class="beincredible-card-image">
+              <div class="beincredible-text">
+                <img src="assests/images/ts2.png" height="24" width="24" alt="">
+                <p class="beincredible-card-title">
+                  Fence Spying
+                </p>
+              </div>
+            </div>
+          </div>
+           <div class="swiper-slide beincredible-card">
+            <div class="beincredible-img-wrapper">
+              <img src="assests/images/Picture-swiper.png" width="384" height="220" alt=""
+                class="beincredible-card-image">
+              <div class="beincredible-text">
+                <img src="assests/images/User Thumb-swiper.png" height="24" width="24" alt="">
+                <p class="beincredible-card-title">
+                  Colorful Face
+                </p>
+              </div>
+            </div>
+          </div>
+           <div class="swiper-slide beincredible-card">
+            <div class="beincredible-img-wrapper">
+              <img src="assests/images/s2.png" width="384" height="220" alt=""
+                class="beincredible-card-image">
+              <div class="beincredible-text">
+                <img src="assests/images/ts2.png" height="24" width="24" alt="">
+                <p class="beincredible-card-title">
+                  Fence Spying
+                </p>
+              </div>
+            </div>
+          </div>
+           <div class="swiper-slide beincredible-card">
+            <div class="beincredible-img-wrapper">
+              <img src="assests/images/-s1.png" width="384" height="220" alt=""
+                class="beincredible-card-image">
+              <div class="beincredible-text">
+                <img src="assests/images/ts1.png" height="24" width="24" alt="">
+                <p class="beincredible-card-title">
+                  Colorful Face
+                </p>
+              </div>
+            </div>
+          </div>
+        <div class="swiper-button-prev">
+          
+        </div>
+       
+        <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section-art-events">
+    <div class="container">
+      <div class="art-parent">
+   <div class="section-header">
+          <h2 class="categories-header">Art events</h2>
+          <a href="#" class="view-all">Explore All Events <img src="assests/images/arrow-right.png" alt=""></a>
+        </div>
+    
+    <div class="art-events-cards">
+      
+     
+      <div class="art-event-card">
+        <div class="art-event-badge badge-featured">Featured</div>
+        <img src="assests/images/Picture-c.png" alt="Wild Horse Event" class="art-event-image" />
+        <h3 class="art-event-title">Wild Horse Event</h3>
+        <p class="art-event-description">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+      </div>
+
+ 
+      <div class="art-event-card ">
+        <div class="art-event-badge badge-featured-sec">New</div>
+        <img src="assests/images/Picture-c2.png" alt="Great Colors" class="art-event-image" />
+        <h3 class="art-event-title">Great Colors</h3>
+        <p class="art-event-description">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+        
+      </div>
+
+    
+      <div class="art-event-card">
+        <div class="art-event-badge badge-featured-third">Coming Soon</div>
+            <img src="assests/images/Picture-c.png" alt="Happy Father's Day" class="art-event-image" />
+        <h3 class="art-event-title">Happy Father's Day</h3>
+        <p class="art-event-description">Egestas elit dui scelerisque ut eu purus aliquam vitae habitasse.</p>
+      </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="join-banner-section">
+
+    <div class="container">
+
+    <div class="join-parent">
+    
+    <div class="join-banner-text-content">
+      <h1 class="join-banner-heading">
+        Add more masterpieces<br />
+        to your growing collection
+      </h1>
+      <a href="#" class="join-banner-button">Join Now</a>
+    </div>
+    
+    <div class="join-banner-image-container">
+      <img src="assests/images/Pexels Photo by Karolina Grabowska.png" alt="Join Banner Person" class="join-banner-person-image" />
+    </div>
+
+    </div>
+    </div>
+
+  </section>
+
+
+  
+  <footer class="footer-main-section">
+
+    <div class="container">
+
+      <div class="footer-parent">
+
+    <div class="footer-link-columns">
+     
+      <div class="footer-column footer-column-categories">
+        <h3 class="footer-column-title"><i class='bx bx-bolt-circle' ></i> Categories</h3>
+        <ul class="footer-link-list">
+          <a href=""><li>User Interface</li></a>
+          <a href=""><li>User Experience</li></a>
+          <a href=""><li>Digital Media</li></a>
+          <a href=""><li>Lifestyle</li></a>
+          <a href=""><li>Programming</li></a>
+          <a href=""><li>Animation</li></a>
+        </ul>
+      </div>
+
+ 
+      <div class="footer-column footer-column-product">
+        <h3 class="footer-column-title"><i class='bx bx-cloud' ></i> Product</h3>
+        <ul class="footer-link-list">
+          <a href=""><li>Pricing</li></a>
+          <a href=""><li>Overview</li></a>
+          <a href=""><li>Browse</li></a>
+          <a href=""><li>Accessibility</li></a>
+          <a href=""><li>Five</li></a>
+          <a href=""><li>Changelog</li></a>
+        </ul>
+      </div>
+
+      
+      <div class="footer-column footer-column-solutions">
+        <h3 class="footer-column-title"><i class='bx bx-cog' ></i> Solutions</h3>
+        <ul class="footer-link-list">
+          <a href=""><li>Brainstorming</li></a>
+          <a href=""><li>Ideation</li></a>
+          <a href=""><li>Wireframing</li></a>
+          <a href=""><li>Research</li></a>
+          <a href=""><li>Design</li></a>
+          <a href=""><li>Concept</li></a>
+        </ul>
+      </div>
+
+   
+      <div class="footer-column footer-column-resources">
+        <h3 class="footer-column-title"><i class='bx bx-git-branch' ></i> Resources</h3>
+        <ul class="footer-link-list">
+          <a href=""><li>Help Center</li></a>
+          <a href=""><li>Blog</li></a>
+          <a href=""><li>Tutorials</li></a>
+          <a href=""><li>FAQs</li></a>
+          <a href=""><li>Community</li></a>
+          <a href=""><li>Events</li></a>
+        </ul>
+      </div>
+
+      <div class="footer-column footer-column-support">
+        <h3 class="footer-column-title"><i class='bx bx-headphone' ></i> Support</h3>
+        <ul class="footer-link-list">
+          <a href=""><li>Contact Us</li></a>
+          <a href=""><li>Developers</li></a>
+          <a href=""><li>Documentation</li></a>
+          <a href=""><li>Integrations</li></a>
+          <a href=""><li>Reports</li></a>
+          <a href=""><li>Webinar</li></a>
+        </ul>
+      </div>
+
+   
+      <div class="footer-column footer-column-company">
+        <h3 class="footer-column-title"><i class='bx bx-bolt-circle' ></i> Company</h3>
+        <ul class="footer-link-list">
+          <a href=""><li>About</li></a>
+          <a href=""><li>Press</li></a>
+          <a href=""><li>Events</li></a>
+          <a href=""><li>Careers</li></a>
+          <a href=""><li>Customers</li></a>
+          <a href=""><li>Partners</li></a>
+        </ul>
+      </div>
+    </div>
+
+    <hr class="footer-divider" />
+
+    <div class="footer-bottom-section">
+      <p class="footer-copyright">
+        @ 2023 Xinder, Inc. All rights reserved.
+      </p>
+      <div class="footer-social-icons">
+        <a href="#"><i class='bx bxl-youtube'></i></a>
+        <a href="#"><i class='bx bxl-facebook'></i></a>
+        <a href="#"><i class='bx bxl-twitter'></i></a>
+        <a href="#"><i class='bx bxl-instagram'></i></a>
+        <a href="#"><i class='bx bxl-linkedin'></i></a>
+      </div>
+    </div>
+
+    <p class="footer-description-text">
+     In sed posuere sed ullamcorper feugiat. Lacinia elit neque, ipsum, non. Tellus mattis enim volutpat habitasse. Semper posuere lectus consectetur aliquam et ullamcorper. Dictumst aenean justo fames diam eget volutpat vestibulum elit. Blandit aliquet bibendum pellentesque turpis id penatibus faucibus id nunc. Aenean rhoncus, erat pellentesque eu. Quis morbi condimentum phasellus in ultricies eu amet.
+    </p>
+</div>
+    </div>
+  </footer>
+
+ 
 
 
 
 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
   <!-- Swiper JS -->
@@ -399,6 +690,39 @@
         }
       }
     });
+    const swiper1 = new Swiper('.swiper-card', {
+      slidesPerView: 4,
+      spaceBetween: 20,
+      loop: true,
+      grabCursor: true,
+      breakpoints: {
+        0: {
+          slidesPerView: 1.2
+        },
+        600: {
+          slidesPerView: 2.5
+        },
+        900: {
+          slidesPerView: 3.5 
+        },
+        1200: {
+          slidesPerView: 5
+        }
+      }
+    });
+
+    const swiper3 = new Swiper('.swiper-container', {
+      loop: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      navigation: true,
+
+      navigation: {
+        nextEl: '.featured-slider__nav--next',
+        prevEl: '.featured-slider__nav--prev',
+      },
+    });
+
 
     const swiper2 = new Swiper('.testimonial-swiper', {
       loop: true,
@@ -407,6 +731,34 @@
         prevEl: '.swiper-button-prev',
       },
     });
+
+    const swiper4 = new Swiper('.beincredible-swiper', {
+      loop: true,
+      slidesPerView: 3,
+       spaceBetween: 30,
+      centeredSlides: true,
+      grabCursor: true,
+      speed: 800,
+
+      breakpoints: {
+        0: {
+          slidesPerView: 1.2
+        },
+        600: {
+          slidesPerView: 1.5
+        },
+        900: {
+          slidesPerView: 2 
+        },
+        1200: {
+          slidesPerView: 3
+        }
+      },
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+})
 
     $(document).ready(function () {
       $('#menu-toggle').on('click', function () {
